@@ -22,6 +22,10 @@ public class UberPassageiro implements TaxaUberCancelamento {
         this.valorCorrida = valorCorrida;
     }
 
+    public UberPassageiro(LocalDateTime finish, Double valorCorrida) {
+        this.finish = finish;
+        this.valorCorrida = valorCorrida;
+    }
 
     public LocalDateTime getStart() {
         return start;
