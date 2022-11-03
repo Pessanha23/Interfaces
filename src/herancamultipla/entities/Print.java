@@ -1,4 +1,4 @@
-package herancamultipla.entities.service;
+package herancamultipla.entities;
 
 public interface Print {
     void print(String doc);

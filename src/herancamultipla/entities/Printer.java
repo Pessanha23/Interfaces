@@ -1,4 +1,4 @@
-package herancamultipla.entities.service;
+package herancamultipla.entities;
 
 public class Printer extends Device implements Print {
 

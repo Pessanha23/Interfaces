@@ -1,4 +1,4 @@
-package herancamultipla.entities.service;
+package herancamultipla.entities;
 
 public class Scanner extends Device implements Scan {
 

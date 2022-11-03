@@ -1,4 +1,4 @@
-package herancamultipla.entities.service;
+package herancamultipla.entities;
 
 public abstract class Device {
     private String serialNumber;

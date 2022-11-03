@@ -1,4 +1,4 @@
-package herancamultipla.entities.service;
+package herancamultipla.entities;
 
 public class ComboDevice extends Device implements Print, Scan{
 
@@ -8,16 +8,16 @@ public class ComboDevice extends Device implements Print, Scan{
 
     @Override
     public void processDoc(String doc) {
-
+        System.out.println("Combo processing " + doc);
     }
 
     @Override
     public void print(String doc) {
-
+        System.out.println("Combo printing " + doc);
     }
 
     @Override
     public String scan() {
-        return null;
+        return "Combo scan result";
     }
 }
